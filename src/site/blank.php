@@ -27,7 +27,7 @@ if($admin==1) {
     jimport('joomla.application.component.controller');
 
     // Create the controller
-    $controller = JControllerLegacy::getInstance('BlankComponent');
+    $controller = JControllerLegacy::getInstance('Blank');
 
     // Perform the Request task
     $controller->execute(JRequest::getCmd('task'));
