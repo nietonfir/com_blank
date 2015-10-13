@@ -17,5 +17,10 @@
         <folder>views</folder>
     </files>
 
-    <administration></administration>
+    <administration>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <folder>language</folder>
+        </files>
+    </administration>
 </extension>
