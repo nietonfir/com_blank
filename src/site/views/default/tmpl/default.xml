@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-    <layout title="A Blank Page" option="default">
-        <message>
-            <![CDATA[Display Nothing!]]>
-        </message>
+    <layout title="COM_BLANK_TITLE">
+        <message>COM_BLANK_MSG</message>
     </layout>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="content" type="list"
+                default="0"
+                label="COM_BLANK_CONTENT_LABEL"
+                description="COM_BLANK_CONTENT_DESC"
+            >
+                <option value="0">COM_BLANK_CONTENT_OPTION_NOTHING</option>
+                <option value="1">COM_BLANK_CONTENT_OPTION_COMMENT</option>
+                <option value="2">COM_BLANK_CONTENT_OPTION_TITLE</option>
+            </field>
+        </fieldset>
+    </fields>
 </metadata>
